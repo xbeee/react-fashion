@@ -1,0 +1,67 @@
+.sale{
+
+    background: linear-gradient(0.00deg, rgb(224, 195, 64),rgb(223, 194, 62) 3.929%,rgb(225, 196, 65) 7.229%,rgb(227, 199, 67) 10.229%,rgb(228, 197, 66) 13.141%,rgb(230, 199, 68) 16.223%,rgb(231, 200, 69) 19.84%,rgb(229, 198, 67) 24.383%,rgb(230, 201, 69) 30.996%,rgb(227, 199, 67) 37.194%,rgb(233, 202, 72) 43.333%,rgb(237, 206, 73) 50.359%,rgb(240, 212, 76) 56.569%,rgb(244, 216, 79) 62.712%,rgb(246, 218, 82) 67.124%,rgb(247, 219, 83) 73.767%,rgb(249, 221, 85) 79.08%,rgb(249, 223, 86) 85.645%,rgb(250, 225, 87) 93.496%,rgb(249, 223, 86) 100%);
+}
+
+.sale__flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+
+.sale__title{
+    font-size: 111px;
+    font-weight: 900;
+    line-height: 137px;
+    max-width: 593px;
+    padding-bottom: 33px;
+}
+
+.sale__subtitle{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 52.32px;
+    max-width: 670px;
+    padding-bottom: 40px;
+}
+
+.sale__date{
+    font-size: 36.04px;
+    font-weight: 400;
+    line-height: 52.32px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 51px;
+}
+
+.sale__date span{
+    font-weight: 700;
+}
+
+.sale__btn-link{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+    text-transform: uppercase;
+
+    background-color: black;
+    padding: 32px 51px;
+    border-radius: 8.14px;
+    display: inline-block;
+
+}
+
+.highlight--sale::before{
+    top: 1px;
+    bottom: 0px;
+    left: -21px;
+    right: -23px;
+}
+
+.highlight--sale p {
+    position: relative;
+        left: 18px;
+}

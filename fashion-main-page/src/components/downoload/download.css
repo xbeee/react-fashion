@@ -1,0 +1,29 @@
+.download {
+    padding: 220px 0;
+}
+.download__flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 305px;
+}
+.download__content {
+    max-width: 507px;
+}
+.download__title {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 150%;
+}
+.download__subtitle {
+    margin-top: 41px;
+    color: rgb(124, 124, 124);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 35px;
+}
+.download__link {
+    margin-top: 65px;
+    display: flex;
+    gap: 19px;
+}
